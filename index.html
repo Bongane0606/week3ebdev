@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample Web Page</title>
+</head>
+<body>
+
+    <!-- Ordered list with roman numerals -->
+    <section>
+        <h2>Ford Mustang For Hire</h2>
+        <ol type="I">
+            <li>For 1hr = R1500</li>
+            <li>For 2hrs = R2500</li>
+            <li>For 5hrs = R5000</li>
+            <li>For 12hrs = R11 000</li>
+            <li>For 24hrs = R20 000</li>
+        </ol>
+    </section>
+
+    <!-- External image from pexels.com -->
+    <section>
+        <h2>1967 Ford Mustang Supercharged Fastback</h2>
+        <img src="C:\Users\bonga\OneDrive\Desktop\Coding Mordecai\67-mustang-obsidian-2-thumb-960xauto-63609.jpg" alt="Scenic View" width="500" height="300">
+    </section>
+    <!-- Table of 5 contacts -->
+    <section>
+        <h2>For more information contact:</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sibusiso Malokotsa</td>
+                    <td>27 Helios Avenue</td>
+                    <td>(067) 576-4590</td>
+                    <td>mabudahdah@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Relebogile Mafere</td>
+                    <td>27 Helios Avenue</td>
+                    <td>(089) 235-5988</td>
+                    <td>lebomalebza@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mvulane Vusile</td>
+                    <td>27 Helios Avenue</td>
+                    <td>(079) 367-6249</td>
+                    <td>mavetheza@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Hlephe Moratei</td>
+                    <td>27 Helios Avenue</td>
+                    <td>(067) 454-7320</td>
+                    <td>matholo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ndawo Maloya</td>
+                    <td>27 Helios Avenue</td>
+                    <td>(067) 147-8871</td>
+                    <td>moloya@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST" id="registration-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <!-- Password -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password" required>
+
+                <!-- Date -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <!-- Dropdown Menu -->
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="usa">South Africa</option>
+                    <option value="uk">Lesotho</option>
+                    <option value="canada">Swaziland</option>
+                    <option value="australia">Botswana</option>
+                </select>
+                <!-- Radio Buttons -->
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                </fieldset>
+
+                <!-- Checkboxes -->
+                <fieldset>
+                    <legend>Interests:</legend>
+                    <input type="checkbox" id="test drive" name="interests" value="test drive">
+                    <label for="test drive">Test Drive</label><br>
+                    <input type="checkbox" id="book appointment" name="interests" value="book appointment">
+                    <label for="book appointment">Book Appointment</label><br>
+                    <input type="checkbox" id="let us come to you" name="interests" value="let us come to you">
+                    <label for="let us come to you">Let Us Come To You</label><br>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <button type="submit">Register</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Letsoenyo Clen Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
